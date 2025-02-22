@@ -13,11 +13,13 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.KotlinAudio">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <!-- <action android:name="androidx.media3.session.MediaLibraryService"/>
+                <action android:name="androidx.media3.session.MediaSessionService"/>
+                <action android:name="android.media.browse.MediaBrowserService"/>
+                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/> -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

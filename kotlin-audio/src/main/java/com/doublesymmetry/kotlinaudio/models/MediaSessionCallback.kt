@@ -1,7 +1,7 @@
 package com.doublesymmetry.kotlinaudio.models
 
 import android.os.Bundle
-import android.support.v4.media.RatingCompat
+import androidx.media3.common.Rating as RatingCompat
 
 sealed class MediaSessionCallback {
     class RATING(val rating: RatingCompat, extras: Bundle?): MediaSessionCallback()

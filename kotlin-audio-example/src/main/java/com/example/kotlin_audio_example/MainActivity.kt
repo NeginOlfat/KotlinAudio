@@ -1,5 +1,7 @@
 package com.example.kotlin_audio_example
 
+import android.app.PendingIntent
+import android.content.Intent
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,7 +20,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.material3.TopAppBarDefaults.topAppBarColors
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -49,6 +51,7 @@ import timber.log.Timber
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.seconds
 
+@androidx.media3.common.util.UnstableApi
 class MainActivity : ComponentActivity() {
     private lateinit var player: QueuedAudioPlayer
 
@@ -166,7 +169,13 @@ class MainActivity : ComponentActivity() {
                 NotificationButton.NEXT(isCompact = true),
                 NotificationButton.PREVIOUS(isCompact = true),
                 NotificationButton.SEEK_TO
-            ), accentColor = null, smallIcon = null, pendingIntent = null
+            ), accentColor = null, smallIcon = null,
+             pendingIntent= PendingIntent.getActivity(
+                 this,
+                 0,
+                 Intent(this, MainActivity::class.java),
+                     PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
+             )
         )
         player.notificationManager.createNotification(notificationConfig)
     }
@@ -264,7 +273,7 @@ fun MainScreen(
                         )
                     }
                 },
-                colors = TopAppBarDefaults.smallTopAppBarColors(containerColor = MaterialTheme.colorScheme.primary)
+                colors = topAppBarColors(containerColor = MaterialTheme.colorScheme.primary)
             )
             TrackDisplay(
                 title = title,

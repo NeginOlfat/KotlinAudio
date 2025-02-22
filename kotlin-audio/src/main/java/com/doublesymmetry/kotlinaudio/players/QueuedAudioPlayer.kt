@@ -3,19 +3,22 @@ package com.doublesymmetry.kotlinaudio.players
 import android.content.Context
 import com.doublesymmetry.kotlinaudio.models.*
 import com.doublesymmetry.kotlinaudio.players.components.getAudioItemHolder
-import com.google.android.exoplayer2.C
-import com.google.android.exoplayer2.IllegalSeekPositionException
-import com.google.android.exoplayer2.source.MediaSource
+import androidx.media3.common.C
+import androidx.media3.common.IllegalSeekPositionException
+import androidx.media3.common.Player
+import androidx.media3.common.util.UnstableApi
+import androidx.media3.exoplayer.source.MediaSource
 import java.util.*
 import kotlin.math.max
 import kotlin.math.min
 
+@UnstableApi
 class QueuedAudioPlayer(
     context: Context,
     playerConfig: PlayerConfig = PlayerConfig(),
     bufferConfig: BufferConfig? = null,
     cacheConfig: CacheConfig? = null
-) : BaseAudioPlayer(context, playerConfig, bufferConfig, cacheConfig) {
+) : BaseAudioPlayer(context, playerConfig, bufferConfig, cacheConfig){
     private val queue = LinkedList<MediaSource>()
     override val playerOptions = DefaultQueuedPlayerOptions(exoPlayer)
 

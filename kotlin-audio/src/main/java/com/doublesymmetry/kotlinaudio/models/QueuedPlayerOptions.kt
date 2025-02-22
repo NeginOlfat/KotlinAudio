@@ -1,7 +1,7 @@
 package com.doublesymmetry.kotlinaudio.models
 
-import com.google.android.exoplayer2.ExoPlayer
-import com.google.android.exoplayer2.Player
+import androidx.media3.exoplayer.ExoPlayer
+import androidx.media3.common.Player
 
 interface QueuedPlayerOptions : PlayerOptions {
     override var alwaysPauseOnInterruption: Boolean

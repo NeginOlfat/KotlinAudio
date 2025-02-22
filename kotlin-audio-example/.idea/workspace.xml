@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c092db6b-f097-49ab-b50c-db2421061a9e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/event/PlayerEventHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/event/PlayerEventHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/models/PlayWhenReadyChangeData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/models/PlayWhenReadyChangeData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/models/QueuedPlayerOptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/models/QueuedPlayerOptions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/notification/NotificationManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/notification/NotificationManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/BaseAudioPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/BaseAudioPlayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/QueuedAudioPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/QueuedAudioPlayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/components/MediaItemExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/components/MediaItemExt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/components/PlayerCache.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/players/components/PlayerCache.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-audio/src/main/java/com/doublesymmetry/kotlinaudio/utils/Utils.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$USER_HOME$/.gradle/wrapper/dists/gradle-7.5.1-all">
+          <activation />
+        </task>
+        <task path="$APPLICATION_HOME_DIR$/jbr">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2stGcvezbKP7pdledca57dGPXsk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.C:/Users/kmp/.gradle/wrapper/dists/gradle-7.5.1-all.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/ReactNative/code/forks/kotlinaudio/KotlinAudio",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c092db6b-f097-49ab-b50c-db2421061a9e" name="Changes" comment="" />
+      <created>1739267540761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739267540761</updated>
+    </task>
+    <servers />
+  </component>
+</project>

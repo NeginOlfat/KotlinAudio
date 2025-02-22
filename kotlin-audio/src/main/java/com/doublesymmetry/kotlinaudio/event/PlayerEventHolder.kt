@@ -1,8 +1,8 @@
 package com.doublesymmetry.kotlinaudio.event
 
 import com.doublesymmetry.kotlinaudio.models.*
-import com.google.android.exoplayer2.MediaMetadata
-import com.google.android.exoplayer2.metadata.Metadata
+import androidx.media3.common.MediaMetadata
+import androidx.media3.common.Metadata
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
